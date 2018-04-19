@@ -1,0 +1,198 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+    <title> Shannon Reid</title>
+    
+    <link href="style.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Gentium+Basic" rel="stylesheet"> 
+    
+    
+<!--//COPY THIS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <link rel="stylesheet" href="jquery.fancybox.css" />
+    <script src="js/jquery.fancybox.js"></script>
+<!--//To Here-->
+    
+     </head>
+    <body>
+
+    
+        
+    <!-- nav -->
+  <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="page_b.html">Contact</a></li>
+      <li><a href="page_a.html">Yen yang</a></li>
+      <li><a href="page_c.html">Flora</a></li>
+      <li><a href="end.html">Suburban dreams</a></li>
+      
+      
+      <div class= "shannon">  
+      <li><a  class="name" href="#home">Shannon Reid</a></li>
+      </div>
+    </ul>
+      <!--photolayout-->
+        
+<div class="masonry">
+  
+        <div>
+            
+        <a data-fancybox="gallery" href="images/flower1.jpg">
+            <img src="images/flower1.jpg" alt="UHN research website" width="480px">
+            
+        </a>
+        </div>
+    
+        <div>
+            
+        <a data-fancybox="gallery" href="images/flower2.jpg">
+            <img src="images/flower2.jpg" alt="UHN research website" width="480px">
+            
+        </a>
+</div>
+
+            
+        <div>
+           
+        <a data-fancybox="gallery" href="images/flower3.jpg">
+            <img src="images/flower3.jpg" alt="UHN research website" width="480px">
+            
+        </a>
+</div>
+       
+       
+
+        <div>
+            
+        <a data-fancybox="gallery" href="images/spot1.jpg">
+            <img src="images/spot1.jpg" alt="UHN research website" width="480px">
+            
+        </a>
+</div>
+    
+<div>
+            
+        <a data-fancybox="gallery"href="images/spot2.jpg">
+            <img src="images/spot2.jpg" alt="UHN research website" width="480px">
+            
+        </a>
+</div>
+
+            
+        <div>
+            
+    <a data-fancybox="gallery" href="images/spot3.jpg">
+            <img src="images/spot3.jpg" alt="UHN research website" width="480px">
+            
+        </a>
+</div>
+       
+        <div>
+            
+    <a data-fancybox="gallery" href="images/spot5.jpg">
+            <img src="images/spot5.jpg" alt="UHN research website" width="480px">
+            
+        </a>
+</div>
+    
+     <div>
+            
+    <a data-fancybox="gallery" href="images/spot4.jpg">
+            <img src="images/spot4.jpg" alt="UHN research website" width="480px">
+            
+        </a>
+</div>
+    
+     <div>
+         
+    <a data-fancybox="gallery" href="images/spot5.jpg">
+            <img src="images/spot5.jpg" alt="UHN research website" width="480px">
+            
+        </a>
+</div>
+    
+     <div>
+            
+    <a data-fancybox="gallery" href="images/spot6.jpg">
+            <img src="images/spot6.jpg" alt="UHN research website" width="480px">
+            
+        </a>
+</div>
+    
+    
+     <div>
+            
+    <a data-fancybox="gallery" href="images/spot7.jpg">
+            <img src="images/spot7.jpg" alt="UHN research website" width="480px">
+            
+        </a>
+</div>
+        
+    
+     <div>
+            
+    <a data-fancybox="gallery" href="images/spot8.jpg">
+            <img src="images/spot8.jpg" alt="UHN research website" width="480px">
+            
+        </a>
+</div>
+    
+    
+    
+    
+</div> 
+        
+        
+       
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+        
+        <script>
+        
+        // Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+        
+             </script>
+        
+        
+        
+  
+        
+        
+
+
+
+</body>
+</html>
+
